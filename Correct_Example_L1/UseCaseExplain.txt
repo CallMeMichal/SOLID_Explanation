@@ -1,0 +1,3 @@
+﻿
+W tym przykładzie w klasie Main jest zaimplementowany mechanizm który sprawdzający czy prostokąt nie jest kwadratem. 
+Jeżeli zachowanie main bedzie zalezało od uzywanego przez nią typu to te typy są nie zmienialne.

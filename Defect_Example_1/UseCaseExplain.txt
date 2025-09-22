@@ -1,0 +1,22 @@
+﻿
+
+Patrząc z perspektywy aktora, z klasy EMPLLOYEE korzyszystają CFO,COO,CTO.
+
+Umieszczając kod który bedzie uzywany przez wiele aktorów w jednej klasie, łamiemy regułę SRP.
+
+Założenie jest takie, że CalculatePay() oraz ReportHours() uzywają tego samego algorytmu do zliczania godzin pracy.
+
+Programisci programując ReguralHours bedą również korzystać z tego samego algorytmu co w przypadku CalculatePay() oraz ReportHours(), bo po co powielać ten sam kod w wielu miejscach.
+
+Jeżeli teraz dział ksiegowości(CFO) będzie chciał zmienić sposób liczenia godzin pracy, to zmiana ta wpłynie na dział operacyjny(COO) oraz dział techniczny(CTO).
+
+Końcowy Efekt:
+Programista zmienia w metodzie CalculateRegularHours(), i przynosi ona efekt nie tylko dla CalculatePay() ale rownież dla ReportHours().
+
+Zadanie wykonane, ale czy napewno zrobione zostało to dobrze?
+
+Regułe SRP złamano w momencie gdy wprowadzono zależnosci zbyt blisko siebie, a reguła mówi wyraźnie żeby "Oddzielać od siebie fragmenty kodu zleżne od róznych aktorów".
+
+Rozwiązanie:
+
+Rozdzielenie fragmentów kodu obsługującego różne aktory do osobnych modułów.

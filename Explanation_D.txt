@@ -1,0 +1,11 @@
+"Zasada odwrócenia zale¿nosci"
+
+Zasada mówi ze najbardziej elastyczne systemy to takie w których zale¿nosci odnosz¹ sie do abstrakcji a nie do konkretnych elementów.
+
+
+Zasady:
+- nie odnos sie do konkretnych, a przez to ulotnych klas
+- nie dziedzicz po ulotnych, konkretnych klasach
+- nie pokrywaj konkretnych funkcji
+- nigdy nie powo³uj sie na nazwê czegokolwiek konkretnego i ulotnego
+

@@ -1,0 +1,7 @@
+"Regu³a SRP (Single Responsibility Principle)"
+
+"Ka¿dy modu³ powinien powinien odpowiadaæ przed jednym i tylko jednym aktorem"
+
+Pod pojêciem modu³ rozumiem zwyk³y plik Ÿród³owy, w przypadku jezyków ktore nie przechowuj¹ kod w plikach, modu³em mozna nazwaæ pewien spójny zbiór funkcji i struktur danych.
+
+S³owo spójny implikuje tutaj u¿ycie regu³y SRP, to w³asnie ona jest si³¹ spajaj¹c¹ ze sob¹ kod zwiazany z jednym aktorem.

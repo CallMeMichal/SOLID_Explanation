@@ -1,0 +1,3 @@
+"Zasada rozdzielenia interfejsów"
+
+Z przyk³adów w solucjach wynika, ze zaleznosci od czegoœ, co niesie ze sob¹ niepotrzebny nam baga¿ moze wywo³aæ zupe³nie nieoczekiwane problemy.

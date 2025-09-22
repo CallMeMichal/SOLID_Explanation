@@ -1,0 +1,5 @@
+"Regu³a Otwarte-zamkniête (Open-Closed Principle)"
+
+Element oprogramowania powinien byæ otwarty na rozbudowê, ale zamkniêty na modyfikacje.
+
+Zachowanie elementu powinno pozwalaæ na rozbudowê bez koniecznosci modyfikowania samego elementu.

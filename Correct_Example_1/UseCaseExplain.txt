@@ -1,0 +1,5 @@
+﻿Rozwiązaniem jest rozdzielenie fragmentów kodu obsługującego różne aktory do osobnych modułów.
+
+
+Wada:
+- programisci musza tworzy i obsługiwać 3 obiekty klas, rozwiazanie lepsze to wzorzec Fasada w Correct_Example_2

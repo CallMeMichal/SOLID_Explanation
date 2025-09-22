@@ -1,0 +1,8 @@
+﻿Scenariusz:
+
+User1 uzywa tylko Serwisu dla uzytkownika 1
+User2 uzywa tylko Serwisu dla uzytkownika 2
+User3 uzywa tylko Serwisu dla uzytkownika 3
+
+User1 bedzie uzalezniony od Serwisu dla uzytkownika 2 i 3 mimo ze wcale z nich nie korzysta.
+W takim przypadku zmiana kodu zrodlowego w Serwisie dla uzytkownia 2 lub 3 moze spowodowac koniecznosc rekompilacji Serwisu dla uzytkownika 1, mimo ze nic sie w nim nie zmieniło.

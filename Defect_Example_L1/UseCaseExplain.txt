@@ -1,0 +1,2 @@
+﻿W tym przykładzie klasa Square nie jest prawidłowym podtypem klasy Rectangle, ponieważ wysokosc i szerokosc prostokąta mozna zmieniać niezaleznie od siebie, natomiast
+wysokosc kwadratu zmieniają sie jednoczesnie. Skoro klasa Main wychodzi z załozenia że współpracuje z klasą Rectangle to moze doprowadzic do problemów.

@@ -1,0 +1,1 @@
+﻿Problem z Defect_Example_I1 został rozwiązany poprzez dodanie interfejsów segregujących zależności użytkowników od serwisów, z których nie korzystają.

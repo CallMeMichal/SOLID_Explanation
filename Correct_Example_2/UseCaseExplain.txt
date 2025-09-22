@@ -1,0 +1,2 @@
+﻿
+Fasada nie ma prawie zadnego kodu, jej zadaniem jest delegowanie zadan do odpowiednich klas.

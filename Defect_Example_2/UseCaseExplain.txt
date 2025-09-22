@@ -1,0 +1,16 @@
+﻿"Złączenia"
+
+Scenariusz:
+Admin zauwazył potrzebe wprowadzenia prostej zmiany w schemacie tabeli Employee.
+Zespół pracowników dział kadr, zdecydował o zmianie formatu przekazywanego im raportu godzin.
+
+Dwóch programistów z dwóch różnych zespołów.
+
+Pobiorą kod i zacznął w klasie Employee robić poprawki.
+
+Niestety ich poprawki bedą ze sobą kolidować, a zatem konieczne jest bedzie wykonanie złaczenia.
+
+Rozwiązanie:
+
+Rozdzielenie fragmentów kodu obsługującego różne aktory do osobnych modułów.
+

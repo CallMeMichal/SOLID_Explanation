@@ -1,0 +1,3 @@
+"Zasada podstawieñ Barbary Liskov"
+
+Zasada LSP moze i powinna byc przenoszona na poziom architektury. Proste naruszenia sta³osci interfejsów mo¿e spowodowaæ zatrucie architektury systemu wieloma dodatkowymi mechanizmami.
